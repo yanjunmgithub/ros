@@ -8,7 +8,7 @@ void inputCallback(const std_msgs::String::ConstPtr& msg)
   ROS_INFO("Received message: %s", msg->data.c_str());
   std::string upperCaseString = msg->data;
   std::transform(upperCaseString.begin(), upperCaseString.end(), upperCaseString.begin(), ::toupper);
-  ROS_INFO("Converted messages: %s", upperCaseString.c_str());
+  ROS_INFO("Converted message: %s", upperCaseString.c_str());
   ros::NodeHandle nh;
   ros::Publisher output_pub = nh.advertise<std_msgs::String>("output_topic", 1000);
   std_msgs::String output_msg;
