@@ -1,2 +1,0 @@
-
--DCATKIN_DEVEL_PREFIX=/home/yanjun/mywork0413/devel -DCMAKE_INSTALL_PREFIX=/home/yanjun/mywork0413/install -G Unix Makefiles

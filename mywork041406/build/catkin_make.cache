@@ -1,0 +1,2 @@
+mypackage
+-DCATKIN_DEVEL_PREFIX=/home/yanjun/desktop/github/ros/mywork041406/devel -DCMAKE_INSTALL_PREFIX=/home/yanjun/desktop/github/ros/mywork041406/install -G Unix Makefiles
